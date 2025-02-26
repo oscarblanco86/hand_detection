@@ -7,13 +7,23 @@
     tools:context=".MainActivity"
     android:gravity="center"
     android:orientation="vertical"
-    >
+>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hand Detection"
+        android:text="MotionSpeak"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made for union, because every conversation matters."
         android:textAllCaps="false"
         android:textSize="40dp"
         android:textColor="@color/black"
@@ -21,12 +31,18 @@
         android:layout_marginBottom="30dp"
         />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:id="@+id/camera_button"
-        android:text="Real-time"
+        android:text="Start Now!"
         android:textAllCaps="false"
         />
-
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/combine_letter_button"
+        android:text="Combine  Letter"
+        android:textAllCaps="false"
+        />
 
 </LinearLayout>

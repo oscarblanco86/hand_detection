@@ -82,7 +82,7 @@ public class CameraActivity extends Activity implements CameraBridgeViewBase.CvC
             // Everything is working
             // Next tutorial series I will make sign language detection
             // bye
-            objectDetectorClass=new objectDetectorClass(getAssets(),"hand_model.tflite","custom_label.txt",300);
+            objectDetectorClass=new objectDetectorClass(getAssets(),"hand_model.tflite","custom_label.txt",300,"Sign_language_model.tflite",96);
             Log.d("MainActivity","Model is successfully loaded");
         }
         catch (IOException e){
